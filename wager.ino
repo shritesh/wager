@@ -1,11 +1,15 @@
 #include <EEPROM.h>
 #include <LiquidCrystal.h>
 
+// Digital Input pins for player button switches
 const int player1Button = 8;
 const int player2Button = 9;
+
+// Player names
 const String player1 = "Shritesh";
 const String player2 = "Saloni";
 
+// Corresponding pins for 1602a
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
